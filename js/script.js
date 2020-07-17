@@ -1081,6 +1081,13 @@
             }
         })
 
+        document.body.addEventListener('click',(e)=>{
+            const sidebar = document.querySelector('.sidebar')
+            if(e.target.classList.contains('a')){
+                sidebar.classList.remove('active')
+            }
+        })
+
         
 
 
